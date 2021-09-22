@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Kaio Henrik de Paula Silva
 * Nome completo do aluno 2
-* Nome completo do aluno 3
+* Daniele Eloi da Costa
 * Ana Beatriz M. de Abreu
 
 ## Orientador
