@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Kaio Henrik de Paula Silva
-* Nome completo do aluno 2
+* Jhonata Jackson Monteiro Motta
 * Daniele Eloi da Costa
 * Ana Beatriz M. de Abreu
 
