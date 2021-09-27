@@ -14,6 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Jhonata Jackson Monteiro Motta
 * Daniele Eloi da Costa
 * Ana Beatriz M. de Abreu
+* Flávio Amaral Lopes
 
 ## Orientador
 
