@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O ponto principal do projeto surgiu da necessidade de um dos integrantes do grupo em criar um tipo de gathering hub para tudo que seja do universo da cultura pop. E, também, da necessidade de deixar temas que possam ser considerados mais complexos, mais dinâmicos. Resolvendo o problema de ter que entrar em diversas plataformas diferentes para encontrar conteúdo sobre os temas em questão. Com base nisso, foram criadas quatro personas para melhor caracterizar os detalhes levantados.
 
 ## Personas
 
@@ -24,68 +20,61 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir dos interesses e do dia a dia das personas utilizadas para o projeto, foram registradas as seguintes histórias de usuário:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|João Augusto        | Estudar conteúdo científico de forma dinâmica |Ter um maior conhecimento sobre o tema e aplicá-lo em meus projetos profissionais e pessoais|
+|João Augusto        |Ler o conteúdo em todas as plataformas| Poder estudar mesmo quando estou longe do meu desktop ou esperando algo (ex.: filas em geral)|
+|João Augusto        | Divulgar meus trabalhos e pesquisas realizadas | Ter um feedback da comunidade e compartilhar meu conhecimento               |
+|João Augusto        | Ser produtivo até em meu tempo de lazer | Ter uma progressão com meus estudos de forma mais orgânica e descontraída|
+|Jhonata Jackson     | Passar o tempo de forma produtiva       | Obter mais conhecimento |
+|Jhonata Jackson     | Uma plataforma que contenha os conteúdos que eu gosto em um só lugar |Eu não precise ficar navegando entre diversas plataformas para obter o desejado |
+|Bia Borges          | Adquirir conhecimento em diversas áreas de forma sinérgica| Ter uma visão de diversas áreas para participação em diversos tipos de projetos |
+|Bia Borges          | Conhecimento concentrado em uma plataforma  | Redução de tempo de procura e mais tempo de aprendizado e lazer |
+|Eduardo Monteiro    | Distrair dos problemas cotidianos com conteúdo de qualidade em uma plataforma dinâmica| Reduzir o estresse diário com conteúdo diversificado e de fácil acesso|
+|Eduardo Monteiro    | Diversificar conhecimento em outras áreas | Benefício pessoal |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Nesta parte serão listados os requisitos funcionais e não funcionais, onde os funcionais descrevem a interação dos usuários com o sistema, e os não funcionais descrevem as funcionalidades do sistema de uma forma geral.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
+|  ID      | Descrição do Requisito  | Prioridade |
+|----------|-----------------------------------------|----|
+|RF-001    | O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API) | ALTA | 
+|RF-002    | O site deve apresentar, para cada publicação, uma imagem correspondente ao assunto apresentado (thumbnail) | ALTA |
+|RF-003    | O site deve permitir ao usuário visualizar o texto completo da publicação com todos os detalhes  | MÉDIA |
+|RF-004    | O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes similares (sources)  | MÉDIA |
+|RF-005    | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa  | ALTA |
+|RF-006    | O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
+|RF-007    | O site deve permitir o compartilhamento das publicações visualizadas em plataformas de redes sociais  | BAIXA |
+|RF-008    | O site deve permitir salvar publicações preferidas  | BAIXA |
+|RF-009    | O site deve permitir verificar as publicações salvas como preferidas  | BAIXA |
+|RF-010    | O site deve permitir que usuários possam comentar publicações  | BAIXA |
+|RF-011    | O site deve exibir os comentários registrados juntamente com a publicação exibida  | BAIXA |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|ID       | Descrição do Requisito  |Prioridade |
+|-------  |-------------------------|----|
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub / Vercel) | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | ALTA | 
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela em conformidade |  MÉDIA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge, Safari) |  ALTA | 
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do primeiro semestre, não podendo extrapolar a data de 06/12/2021. |
+|02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend|
+|03| A equipe não poderá adicionar nem retirar os integrantes durante todo o processo de desenvolvimento do projeto. |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
