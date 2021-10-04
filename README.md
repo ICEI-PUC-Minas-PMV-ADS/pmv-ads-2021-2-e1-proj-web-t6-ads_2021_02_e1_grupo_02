@@ -1,21 +1,22 @@
-# TÍTULO DO PROJETO
+# Portal Geek
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto visa a implementação de uma plataforma que una temáticas _geeks_ no geral, como por exemplo: super heróis e artigos científicos, de uma forma que um tema esteja relacionado com outro, servindo como um _gathering hub_ para todos esses temas.
 
 ## Integrantes
 
-* Kaio Henrik de Paula Silva
-* Jhonata Jackson Monteiro Motta
+* Ana Beatriz Magnavacca de Abreu
 * Daniele Eloi da Costa
-* Ana Beatriz M. de Abreu
 * Flávio Amaral Lopes
-* Vinicio Machado Muniz de Morais
+* Jhonata Jackson Monteiro Motta
+* Juliano Ciebre dos Santos
+* Kaio Henrik de Paula Silva
+* Vinicio Machado Moniz de Morais
 
 ## Orientador
 
