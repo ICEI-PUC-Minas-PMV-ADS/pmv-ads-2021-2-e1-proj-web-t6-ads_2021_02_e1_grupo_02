@@ -15,6 +15,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Daniele Eloi da Costa
 * Ana Beatriz M. de Abreu
 * Flávio Amaral Lopes
+* Vinicio Machado Muniz de Morais
 
 ## Orientador
 
