@@ -1,35 +1,80 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+Dentre os diversos objetivos que temos neste projeto, estamos direcionando nosso foco para uma melhor experiência do usuário. Ou seja, acessibilidade, usabilidade, agilidade. Pensando nisso, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para o funcionamento em desktops ou plataformas mobile (celular, tablet, etc).
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+## Fluxo do Usuário
 
-## User Flow
+O diagrama mostrado na figura abaixo mostra a interação do usuário pelas telas da plataforma. Cada uma dessas telas é detalhada de forma mais aprofundada na seção de Wireframes.
 
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+![Fluxo do Usuário](img/Diagrama_telas.png)
+<center>Figura I - Diagrama de telas.</center>
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Cada página criada para a plataforma segue um padrão de estrutura, os três blocos:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+* **Cabeçalho/Header**: local que se encontra a barra de navegação e o logotipo do site.
+* **Conteúdo/Body**: local que se encontra todo o material que o usuário irá consumir, sendo texto, imagem, vídeo, etc.
+* **Rodapé/Footer**: local que se encontram as informações “Fale Conosco”, “Quem Somos” e o “Nome do Site”.
+
+![Composição do site](img/Composição_site.png)
+<center>Figura II - Composição do site.</center>
+
+### Tela - Homepage
+
+A tela de homepage é o local que se encontra toda a centralização do website. Ou seja, conteúdo em destaque e funcionalidades gerais, também. Sendo elas:
+
+* Componente de **pesquisa** que permite filtrar o conteúdo da página de acordo com o que o usuário pesquisar;
+* Componente de **categorias** que permite filtrar o conteúdo da página de acordo com palavras chaves pré-definidas pelo o website;
+* Componente de **carregar mais** conteúdo que aparece de acordo com a sua relevância;
+* Componente de **explorar** que mostra um pouco de cada parte do site;
+* Componente de **podcasts** que leva à uma página em que se encontram os podcasts que já ficaram disponíveis no site;
+* Componente **carrossel** que mostra os conteúdos do site com um maior destaque. 
+
+![Tela - Homepage](img/Tela_Homepage.png)
+<center>Figura III - Tela - Homepage</center>
+
+### Tela - Notícia
+
+A tela de de notícia é a página que se encontra o conteúdo em questão. Ainda que esteja seguindo o mesmo layout da homepage, tem o adendo do componente de participar da discussão, que leva para a página de comentários.
+
+![Tela - Notícia](img/Tela_Notícia.png)
+<center>Figura IV - Tela - Notícia</center>
+
+### Tela - Discussão
+
+Nesta tela é o local que o usuário pode discorrer sobre a notícia. Nela, se encontra o “Título da Matéria", seguido da imagem da notícia em questão. Para que o usuário possa comentar, é necessário que seja inserido seu “Nome”, “E-mail” e a “Mensagem” que quer que seja enviada na sessão de comentários. Após isso, é necessário clicar em “Enviar”. 
+
+![Tela - Discussão](img/Tela_Discussão.png)
+<center>Figura V - Tela - Discussão</center>
+
+### Tela - Artigos por categoria
+
+A tela de categorias é onde se encontra a categoria específica que o usuário quer ver, indiferente da relação de relevância de cada notícia. Havendo, também, a possibilidade de **carregar mais** conteúdo dessa mesma categoria.
+
+![Tela - Artigos por categoria](img/Tela_Artigos_categoria.png)
+<center>Figura VI - Tela - Artigos por categoria</center>
+
+### Tela - Pesquisa
+
+Após o usuário pesquisar o que deseja, é aqui que os resultados da pesquisa aparecerão. Incluindo notícias, artigos, vídeos, podcasts, etc, que contenham as palavras chaves em questão.
+
+![Tela - Pesquisa](img/Tela_Pesquisa.png)
+<center>Figura VII - Tela - Pesquisa</center>
+
+### Tela - Quem somos
+
+Toda informação relacionada a nós, incluindo a nossa história, quem somos como empresa e os integrantes da equipe, se encontram nessa tela.
+
+![Tela - Quem somos](img/Tela_Quem_somos.png)
+<center>Figura VIII - Tela - Quem somos</center>
+
+### Tela - Fale conosco
+
+Havendo a necessidade do usuário nos contatar, ele poderá nos encontrar via redes sociais ou entrar em contato conosco inserindo o seu email.
+
+![Tela - Fale conosco](img/Tela_Fale_conosco.png)
+<center>Figura IX - Tela - Fale conosco</center>
+
