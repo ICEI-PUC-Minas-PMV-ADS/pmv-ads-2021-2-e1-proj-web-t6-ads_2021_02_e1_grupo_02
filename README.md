@@ -1,10 +1,10 @@
-# Portal Geek
+# PORTAL GEEK
 
-`Tecnologia em Análise e Desenvolvimento de Sistemas`
+`CURSO: ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`Projeto: Desenvolvimento de Aplicação Web Front-End`
+`DISCIPLINA: PROJETO`
 
-`1º Semestre`
+`SEMESTRE: 2021.2`
 
 Este projeto visa a implementação de uma plataforma que una temáticas _geeks_ no geral, como por exemplo: super heróis e artigos científicos, de uma forma que um tema esteja relacionado com outro, servindo como um _gathering hub_ para todos esses temas.
 
@@ -34,7 +34,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/03-Metodologia.md"> Metodologia</a></li>
 <li><a href="docs/04-Projeto de Interface.md"> Projeto de Interface</a></li>
 <li><a href="docs/05-Arquitetura da Solução.md"> Arquitetura da Solução</a></li>
-<li><a href="docs/06-Template padrão do Site.md"> Template padrão do Site</a></li>
+<li><a href="docs/11-Referências.md"> Referências</a></li>
+<!--<li><a href="docs/06-Template padrão do Site.md"> Template padrão do Site</a></li> 
 <li><a href="docs/07-Programação de Funcionalidades.md"> Programação de Funcionalidades</a></li>
 <li><a href="docs/08-Plano de Testes de Software.md"> Plano de Testes de Software</a></li>
 <li><a href="docs/09-Registro de Testes de Software.md"> Registro de Testes de Software</a></li>
