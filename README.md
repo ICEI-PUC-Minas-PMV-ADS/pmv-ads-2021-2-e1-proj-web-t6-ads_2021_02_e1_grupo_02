@@ -22,9 +22,9 @@ Este projeto visa a implementação de uma plataforma que una temáticas _geeks_
 
 * Nathália Assis Valentim
 
-## Instruções de utilização
+<!--## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.-->
 
 # Documentação
 
