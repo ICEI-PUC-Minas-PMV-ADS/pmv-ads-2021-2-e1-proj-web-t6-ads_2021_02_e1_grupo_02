@@ -8,7 +8,7 @@ Dentre os diversos objetivos que temos neste projeto, estamos direcionando nosso
 
 O diagrama mostrado na figura abaixo mostra a interação do usuário pelas telas da plataforma. Cada uma dessas telas é detalhada de forma mais aprofundada na seção de Wireframes.
 
-![Fluxo do Usuário](img/Diagrama_telas.png)
+![Fluxo do Usuário](img/Wireframe/WIreFrame.png)
 <center>Figura I - Diagrama de telas.</center>
 
 ## Wireframes
