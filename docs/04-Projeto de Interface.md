@@ -19,7 +19,7 @@ Cada página criada para a plataforma segue um padrão de estrutura, os três bl
 * **Conteúdo/Body**: local que se encontra todo o material que o usuário irá consumir, sendo texto, imagem, vídeo, etc.
 * **Rodapé/Footer**: local que se encontram as informações “Fale Conosco”, “Quem Somos” e o “Nome do Site”.
 
-![Composição do site](img/Wireframe/Composicao.png)
+![Composição do site](img/Wireframe/Composicao.svg)
 <center>Figura II - Composição do site.</center>
 
 ### Tela - Homepage
@@ -40,7 +40,7 @@ A tela de homepage é o local que se encontra toda a centralização do website.
 
 A tela de de notícia é a página que se encontra o conteúdo em questão. Ainda que esteja seguindo o mesmo layout da homepage, tem o adendo do componente de participar da discussão, que leva para a página de comentários.
 
-![Tela - Notícia](img/Wireframe/Tela_Notícia.png)
+![Tela - Notícia](img/Wireframe/Tela_Notícia.svg)
 <center>Figura IV - Tela - Notícia</center>
 
 ### Tela - Discussão
