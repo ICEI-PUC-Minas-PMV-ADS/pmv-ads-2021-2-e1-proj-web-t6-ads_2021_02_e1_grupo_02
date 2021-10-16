@@ -40,7 +40,7 @@ A tela de homepage é o local que se encontra toda a centralização do website.
 
 A tela de de notícia é a página que se encontra o conteúdo em questão. Ainda que esteja seguindo o mesmo layout da homepage, tem o adendo do componente de participar da discussão, que leva para a página de comentários.
 
-![Tela - Notícia](img/Wireframe/Tela_Notícia.svg)
+![Tela - Notícia](img/Wireframe/Noticia.svg)
 <center>Figura IV - Tela - Notícia</center>
 
 ### Tela - Discussão
