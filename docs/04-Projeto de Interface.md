@@ -47,7 +47,7 @@ A tela de de notícia é a página que se encontra o conteúdo em questão. Aind
 
 Nesta tela é o local que o usuário pode discorrer sobre a notícia. Nela, se encontra o “Título da Matéria", seguido da imagem da notícia em questão. Para que o usuário possa comentar, é necessário que seja inserido seu “Nome”, “E-mail” e a “Mensagem” que quer que seja enviada na sessão de comentários. Após isso, é necessário clicar em “Enviar”. 
 
-![Tela - Discussão](img/Wireframe/Discussao.png)
+![Tela - Discussão](img/Wireframe/Discussao.jpg)
 <center>Figura V - Tela - Discussão</center>
 
 ### Tela - Artigos por categoria
@@ -68,13 +68,13 @@ Após o usuário pesquisar o que deseja, é aqui que os resultados da pesquisa a
 
 Toda informação relacionada a nós, incluindo a nossa história, quem somos como empresa e os integrantes da equipe, se encontram nessa tela.
 
-![Tela - Quem somos](img/Wireframe/Quem-somos.png)
+![Tela - Quem somos](img/Wireframe/Quem-Somos.png)
 <center>Figura VIII - Tela - Quem somos</center>
 
 ### Tela - Fale conosco
 
 Havendo a necessidade do usuário nos contatar, ele poderá nos encontrar via redes sociais ou entrar em contato conosco inserindo o seu email.
 
-![Tela - Fale conosco](img/Wireframe/Fale-conosco.png)
+![Tela - Fale conosco](img/Wireframe/Fale-Conosco.png)
 <center>Figura IX - Tela - Fale conosco</center>
 
