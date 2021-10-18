@@ -3,7 +3,8 @@
 Padrão de layout a ser utilizado pelo site:
 
 ![Template padrão do site](img/Wireframe/Template_Padrão_Site.png)
-<center>Figura 12 - Template Padrão do Site</center>
+
+Figura 12 - Template Padrão do Site
 
 
 O template criado é composto pelos seguintes layouts:
