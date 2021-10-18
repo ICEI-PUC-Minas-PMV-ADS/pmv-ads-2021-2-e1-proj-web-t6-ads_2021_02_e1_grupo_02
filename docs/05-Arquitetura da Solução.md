@@ -12,9 +12,8 @@ Os componentes que fazem parte da solução são apresentados na figura abaixo.
 A solução implementada conta com os seguintes módulos:
 
 - **Navegador** - Interface básica do sistema  
-  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. Em específico: 
-     - **Matérias** - seções de notícias apresentadas
+  - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema e contém as informações das
+  matérias de forma estática.
 
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.     
  - **API de Comentários** - back-end responsável por prover e guardar os comentários dos usuários.

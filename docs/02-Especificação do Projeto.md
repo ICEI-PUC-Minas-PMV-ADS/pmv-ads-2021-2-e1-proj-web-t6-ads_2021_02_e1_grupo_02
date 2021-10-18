@@ -45,17 +45,14 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |  ID      | Descrição do Requisito  | Prioridade |
 |----------|-----------------------------------------|----|
-|RF-001    | O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API) | ALTA | 
+|RF-001    | O site deve apresentar na página principal notícias estáticas inclusas pelo próprio administrador | ALTA |
 |RF-002    | O site deve apresentar, para cada publicação, uma imagem correspondente ao assunto apresentado (thumbnail) | ALTA |
 |RF-003    | O site deve permitir ao usuário visualizar o texto completo da publicação com todos os detalhes  | MÉDIA |
-|RF-004    | O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes similares (sources)  | MÉDIA |
-|RF-005    | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa  | ALTA |
-|RF-006    | O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
-|RF-007    | O site deve permitir o compartilhamento das publicações visualizadas em plataformas de redes sociais  | BAIXA |
-|RF-008    | O site deve permitir salvar publicações preferidas  | BAIXA |
-|RF-009    | O site deve permitir verificar as publicações salvas como preferidas  | BAIXA |
-|RF-010    | O site deve permitir que usuários possam comentar publicações  | BAIXA |
-|RF-011    | O site deve exibir os comentários registrados juntamente com a publicação exibida  | BAIXA |
+|RF-004    | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa  | ALTA |
+|RF-005    | O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
+|RF-006    | O site deve permitir o compartilhamento das publicações visualizadas em plataformas de redes sociais  | BAIXA |
+|RF-007    | O site deve permitir que usuários possam comentar publicações  | BAIXA |
+|RF-008    | O site deve exibir os comentários registrados juntamente com a publicação exibida  | BAIXA |
 
 ### Requisitos não Funcionais
 
