@@ -1,4 +1,18 @@
 .bg-dark{
     background: rgb(5,40,96) !important;
     background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%)!important;
+<<<<<<< HEAD
 }
+=======
+}
+
+.container-fluid{
+    height: 200px;
+}
+
+footer img{
+    width: 5%;
+    
+    
+}
+>>>>>>> main
