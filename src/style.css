@@ -1,18 +1,49 @@
 .bg-dark{
     background: rgb(5,40,96) !important;
     background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%)!important;
-<<<<<<< HEAD
-}
-=======
 }
 
 .container-fluid{
     height: 200px;
 }
 
-footer img{
-    width: 5%;
-    
-    
+.header {
+    display: flex;
+    height: 18vh;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
 }
->>>>>>> main
+
+
+.test {
+    background: rgb(5,40,96);
+background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%);
+}
+
+
+
+@media only screen and (max-width:575px) {
+    .header {
+      display: none;
+    }
+    
+    ul {
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+
+    .navbar-brand {
+        width: 70%;
+        padding-left: 15%;
+    }
+
+  }
+
+
+.nav-link {
+    font-size: 150%;
+    font-family: 'Bebas Neue', cursive;
+    margin-inline: 6px;
+}
+
