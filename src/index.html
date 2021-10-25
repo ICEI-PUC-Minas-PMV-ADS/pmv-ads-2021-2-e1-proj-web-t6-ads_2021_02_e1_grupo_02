@@ -175,6 +175,18 @@
             console.log(userData)
         }
 
+        window.onload = function () {
+        var div = document.getElementById('exampleCheck1')
+            div.addEventListener('click', function () {
+                var senha = document.getElementById("exampleInputPassword1")
+                if(senha && senha.type === "password") {
+                    senha.type = "text"
+                } else {
+                    senha.type = "password"
+                }
+            }, false)
+    }
+
     </script>
     <div class="bg-dark" style="width: 100%;">
         <div class="container">
