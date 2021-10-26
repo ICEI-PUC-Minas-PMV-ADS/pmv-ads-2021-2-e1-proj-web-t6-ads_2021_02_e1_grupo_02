@@ -2,7 +2,7 @@
 
 As telas a seguir apresentam algumas funcionalidades que foram desenvolvidas para o projeto, bem como a URL de acesso.
 
-#Home-Page
+# Home-Page
 
 A tela inicial do site é composta por 4 estruturas:
 
