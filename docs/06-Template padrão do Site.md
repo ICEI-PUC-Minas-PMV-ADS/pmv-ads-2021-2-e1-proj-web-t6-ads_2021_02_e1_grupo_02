@@ -2,7 +2,7 @@
 
 Padrão de layout a ser utilizado pelo site:
 
-![Template padrão do site](img/Wireframe/Template_Padrão_Site.png)
+![Template padrão do site](img/template/Template_Padrão_Site.png)
 
 Figura 12 - Template Padrão do Site
 
@@ -15,9 +15,11 @@ O template criado é composto pelos seguintes layouts:
 
 **Rodapé/Footer**: local no qual se encontram os ícones para as redes sociais do site.
 
-## Cabeçalho/Header 
+## Tela Principal
 
-## Conteúdo/Body
+Tela central  onde se concentra todas as informações do site e locais de acesso para outras páginas. 
 
-## Rodapé/Footer
+![Tela Principal](img/template/tela-principal.png)
+
+Figura 13 - Tela Principal
 
