@@ -3,12 +3,79 @@
     background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%)!important;
 }
 
-.container-fluid{
+/* .container-fluid{
     height: 200px;
+} */
+
+.header {
+    display: flex;
+    height: 18vh;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
 }
 
-footer img{
-    width: 5%;
+
+.test {
+    background: rgb(5,40,96);
+background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%);
+}
+
+
+
+@media only screen and (max-width:575px) {
+    .header {
+      display: none;
+    }
     
-    
+    ul {
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+
+    .navbar-brand {
+        width: 70%;
+    }
+
+    .card {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 80%;
+    }
+
+  }
+
+
+.nav-link {
+    font-size: 150%;
+    font-family: 'Bebas Neue', cursive;
+    /* margin-inline: 6px; */
+}
+
+.card {
+    /* margin-inline: 3%; */
+    background-color: transparent;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.card-text {
+    color: #FFF;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.card-img-top {
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: #FFF;
+    border-style: solid;
+}
+
+.img-principal {
+    border-radius: 10px;
+    width: 100%;
 }
