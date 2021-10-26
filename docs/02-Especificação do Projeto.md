@@ -51,8 +51,9 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-004    | O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa  | ALTA |
 |RF-005    | O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
 |RF-006    | O site deve permitir o compartilhamento das publicações visualizadas em plataformas de redes sociais  | BAIXA |
-|RF-007    | O site deve permitir que usuários possam comentar publicações  | BAIXA |
+|RF-007    | O site deve permitir ao usuário comentar publicações  | BAIXA |
 |RF-008    | O site deve exibir os comentários registrados juntamente com a publicação exibida  | BAIXA |
+|RF-009    | O site deve permitir ao usuário a se cadastrar através de um formulário de inscrição  | MÉDIA |
 
 ### Requisitos não Funcionais
 
