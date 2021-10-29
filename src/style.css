@@ -79,3 +79,7 @@ body {
     border-radius: 10px;
     width: 100%;
 }
+
+.social-media {
+    margin-inline: 20px;
+}
