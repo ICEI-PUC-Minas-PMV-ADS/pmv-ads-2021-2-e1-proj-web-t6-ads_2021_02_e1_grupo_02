@@ -43,6 +43,10 @@ background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgb
         width: 80%;
     }
 
+    #carouselExampleCaptions {
+        display: none
+    }
+
   }
 
 
