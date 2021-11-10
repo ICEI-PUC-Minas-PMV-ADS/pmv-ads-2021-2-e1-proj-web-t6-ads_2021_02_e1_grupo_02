@@ -17,8 +17,21 @@
 
 
 .test {
+    width: 100%;
     background: rgb(5,40,96);
-background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%);
+    background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%);
+}
+
+.titulo-cat {
+    display: block;
+    margin: auto;
+    padding-left: 0px;
+    width: 95%; 
+    border-top-width: 2px; 
+    border-top-style: solid; 
+    border-top-color: black; 
+    border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black; 
+    
 }
 
 
@@ -86,4 +99,15 @@ body {
 
 .social-media {
     margin-inline: 20px;
+}
+
+.trilha {
+    width: 95%;
+    margin: auto;
+    padding: 0px;
+    /* background-color: red; */
+}
+
+.breadcrumb-item {
+    padding-top: 12px;
 }
