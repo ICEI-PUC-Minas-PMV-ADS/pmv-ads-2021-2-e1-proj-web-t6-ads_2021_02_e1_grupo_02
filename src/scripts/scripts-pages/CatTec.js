@@ -6,12 +6,22 @@ window.onload = function () {
 function montData(data) {
     console.log(data)
     const lista = data.categorias["tecnologia"].map(item => `
-    <div class="card col-md-4" style="width: 18rem;">
-        <img src="https://source.unsplash.com/random/500x500?x=1" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text text-dark">${item.description}</p>
+        <div class="col-md-4 my-3" id="cardst">
+            <a href="#" target="_blank" id="hrefcard">
+                <div class="card" id="cardbl" style="width: 21rem; display: block; margin: auto;">
+                    <div class="card-body">
+                        <h2 class="card-text text-dark" style="font-size: 1.28em;">${item.title}</h2>
+                    </div>
+                    <img src="https://source.unsplash.com/random/690x550?x=1" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text text-dark" style="font-size: 0.95em";>${item.description}</h3>
+                        <h4 class="card-text text-dark" style="font-size: 0.70em; text-align: left;"><a href="${item.font}" target="_blank">Fonte</a></h4>
+                        <h4 class="card-text text-dark" style="font-size: 0.70em; text-align: right;"><a href="${item.link}" target="_blank">Saiba Mais</a></h4>
+                    </div>
+                </div>
+            </a>
         </div>
-  </div>
+
   `).join('')
     document.getElementById('news').innerHTML =  lista
     
