@@ -69,6 +69,10 @@
     /* margin-inline: 6px; */
 }
 
+.dropdown-item{
+    font-size: 18px;
+}
+
 .card {
     /* margin-inline: 3%; */
     background-color: transparent;
