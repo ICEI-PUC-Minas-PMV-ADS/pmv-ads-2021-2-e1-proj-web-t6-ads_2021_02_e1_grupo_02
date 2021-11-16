@@ -5,6 +5,7 @@
 
 #navbg {
     background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13, 33,1) 50%, rgba(73,34,73,1) 100%) !important;
+    width: 100%;
 }
 
 .header {
@@ -30,8 +31,11 @@
     border-top-width: 2px; 
     border-top-style: solid; 
     border-top-color: black; 
-    border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black; 
-    
+    border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
+}
+
+.titulo-cat img {
+    max-width: 3.5%;
 }
 
 
@@ -59,6 +63,14 @@
         display: none
     }
 
+    #cardbl {
+        width: 19.5rem !important;
+         
+    }
+
+    .titulo-cat img {
+        max-width: 10%;
+    }
 }
 
 
@@ -127,18 +139,47 @@ body {
 }
 
 #cardbl {
-    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.219);
+    box-shadow: 8px 6px 6px rgba(0, 0, 0, 0.219);
     border-color: rgba(73, 34, 73, 0.445);
-    border-width: 1.55px;
+    border-width: 1.55px; 
+    background: linear-gradient(161deg, rgb(156, 2, 2) 50%, rgb(189, 173, 35) 50%)!important;
 }
 
-#cardbl:hover {
+#cardbl img {
+    max-width: 24rem;
+}
+
+#cardbl h2 {
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+
+#cardbl:hover, #cardbl:active {
     transition: 0.5s;
     transform: scale(1.04);
-    box-shadow: 8px 6px 6px rgba(0, 0, 0, 0.219);
+    box-shadow: 11px 9px 9px rgb(3, 170, 247);
+}
+
+#cardst h3 {
+    font-weight: bold;
 }
 
 #cardst h4 {
     display: inline;
+    font-weight: bolder;
+}
+
+#cardst a {
+    color: rgb(156, 2, 2);
+    text-decoration: none;
+}
+
+#cardst a:hover {
+    color: rgb(3, 87, 156);
+    text-decoration: none;
 }
 

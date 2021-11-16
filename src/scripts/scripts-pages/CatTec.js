@@ -6,9 +6,9 @@ window.onload = function () {
 function montData(data) {
     console.log(data)
     const lista = data.categorias["tecnologia"].map(item => `
-        <div class="col-md-4 my-3" id="cardst">
+        <div class="col-md-4 my-3" id="cardst" style="margin: auto;">
             <a href="#" target="_blank" id="hrefcard">
-                <div class="card" id="cardbl" style="width: 21rem; display: block; margin: auto;">
+                <div class="card" id="cardbl" style="width: 26rem; display: block; margin: auto;">
                     <div class="card-body">
                         <h2 class="card-text" style="font-size: 1.28em;">${item.title}</h2>
                     </div>
@@ -43,7 +43,7 @@ const data = {
             {
                 id: "tec2",
                 title: "Microsoft anuncia Windows 11 SE, focado no mercado educacional",
-                description: "Sistema operacional voltado para o mercado educacional.",
+                description: "Sistema operacional voltado para o mercado educacional",
                 font: "https://www.tecmundo.com.br/",
                 link: "https://www.tecmundo.com.br/software/228405-microsoft-anuncia-windows-11-focado-mercado-educacional.htm",
                 img: "",
