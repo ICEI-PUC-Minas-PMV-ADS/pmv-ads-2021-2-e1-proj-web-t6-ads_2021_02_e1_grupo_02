@@ -166,6 +166,10 @@ body {
 
 #cardst h3 {
     font-weight: bold;
+    max-width: 500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #cardst h4 {

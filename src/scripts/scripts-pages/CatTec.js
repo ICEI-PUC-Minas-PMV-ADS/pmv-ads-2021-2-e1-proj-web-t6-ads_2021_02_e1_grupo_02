@@ -6,7 +6,7 @@ window.onload = function () {
 function montData(data) {
     console.log(data)
     const lista = data.categorias["tecnologia"].map(item => `
-        <div class="col-md-4 my-3" id="cardst" style="margin: auto;">
+        <div class="col-md-4 my-3" id="cardst" style="display: block; margin: auto;">
             <a href="#" target="_blank" id="hrefcard">
                 <div class="card" id="cardbl" style="width: 26rem; display: block; margin: auto;">
                     <div class="card-body">
