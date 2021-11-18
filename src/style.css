@@ -34,10 +34,6 @@
     border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
 }
 
-.titulo-cat img {
-    max-width: 3.5%;
-}
-
 
 @media only screen and (max-width:575px) {
     .header {
@@ -62,22 +58,12 @@
     #carouselExampleCaptions {
         display: none
     }
-
-    #cardbl {
-        width: 19.5rem !important;
-         
-    }
-
-    .titulo-cat img {
-        max-width: 10%;
-    }
 }
 
 
 .nav-link {
     font-size: 150%;
     font-family: 'Bebas Neue', cursive;
-    /* margin-inline: 6px; */
 }
 
 .dropdown-item{
@@ -85,7 +71,6 @@
 }
 
 .card {
-    /* margin-inline: 3%; */
     background-color: transparent;
 }
 
@@ -140,52 +125,36 @@ body {
     padding-bottom: 10px;
 }
 
-#cardbl {
-    box-shadow: 8px 6px 6px rgba(0, 0, 0, 0.219);
-    border-color: rgba(73, 34, 73, 0.445);
-    border-width: 1.55px; 
-    background: linear-gradient(161deg, rgb(156, 2, 2) 50%, rgb(189, 173, 35) 50%)!important;
-}
-
-#cardbl img {
-    max-width: 24rem;
-}
-
-#cardbl h2 {
-    max-width: 500px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-weight: bold;
-  }
-  
-
-#cardbl:hover, #cardbl:active {
+#card:hover, #card:active {
     transition: 0.5s;
     transform: scale(1.04);
-    box-shadow: 11px 9px 9px rgb(3, 170, 247);
+    box-shadow: 11px 9px 9px rgb(73,34,73,1);
 }
 
-#cardst h3 {
-    font-weight: bold;
-    max-width: 500px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+#news {
+    padding: 80px;
+    background-color: #F7F8F9;
 }
 
-#cardst h4 {
-    display: inline;
-    font-weight: bolder;
+#card {
+    width: 22rem; 
+    height: 26rem;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
 }
 
-#cardst a {
-    color: rgb(156, 2, 2);
-    text-decoration: none;
+.card-title{
+    font-size: 1.3vw;
+    text-align: left;
+    color: #000;
+    font-weight: 700;
+    padding-inline: 20px;
 }
 
-#cardst a:hover {
-    color: rgb(3, 87, 156);
-    text-decoration: none;
+.card-description {
+    font-size: 1vw;
+    text-align: left;
+    color: #000;
+    padding-inline: 20px;
 }
-

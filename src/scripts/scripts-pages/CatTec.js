@@ -8,16 +8,17 @@ function montData(data) {
     const lista = data.categorias["tecnologia"].map(item => `
         <div class="col-md-4 my-3" id="cardst" style="display: block; margin: auto;">
             <a href="#" target="_blank" id="hrefcard">
-                <div class="card" id="cardbl" style="width: 26rem; display: block; margin: auto;">
-                    <div class="card-body">
-                        <h2 class="card-text" style="font-size: 1.28em;">${item.title}</h2>
+                <div id="card">
+                    <div id="card-img">
+                        <img src="https://source.unsplash.com/random/690x500?x=1" class="card-img-top" alt="...">
                     </div>
-                    <img src="https://source.unsplash.com/random/690x550?x=1" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-text" style="font-size: 0.95em";>${item.description}</h3>
-                        <h4 class="card-text" style="font-size: 0.70em; text-align: left;"><a href="${item.font}" target="_blank">Fonte</a></h4>
-                        <h4 class="card-text" style="font-size: 0.70em; text-align: right;"><a href="${item.link}" target="_blank">Saiba Mais</a></h4>
+                    <div>
+                        <p class="card-title">${item.title}</p>
                     </div>
+                    <div>
+                        <p class="card-description">${item.description}</p> 
+                    </div>
+                    
                 </div>
             </a>
         </div>
