@@ -132,10 +132,6 @@ body {
     padding-top: 12px;
 }
 
-.card-text {
-    color: black;
-}
-
 #hrefcard {
     text-decoration: none;
 }
@@ -153,7 +149,7 @@ body {
 }
 
 #news {
-    padding: 80px;
+    padding: 45px 80px 45px 80px;
     background-color: #F7F8F9;
     justify-content: center;
 }
@@ -178,5 +174,5 @@ body {
     font-size: 1rem;
     text-align: left;
     color: #000;
-    padding: 0px;
+    padding: 7px 0px 0px 0px;
 }
