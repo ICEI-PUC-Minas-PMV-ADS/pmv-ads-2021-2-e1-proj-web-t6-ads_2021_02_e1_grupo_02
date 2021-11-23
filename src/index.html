@@ -75,8 +75,47 @@
 
   <!--Fim Header-->
 
-
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/random/1000x300?y=1" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/random/1000x300?y=2" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/random/1000x300?y=3" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!--<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -116,9 +155,23 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div> -->
+
+  <div class="card mb-3" id="headline">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://source.unsplash.com/random/890x700?x=1" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="container-fluid col-md-12 justify-content-left" style="padding: 3%;">
+  <!--<div class="container-fluid col-md-12 justify-content-left" style="padding: 3%;">
     <div class="row">
       <div class="col-md-6">
         <h1>Uncharted | Tom Holland parte em jornada perigosa no primeiro trailer da adaptação; assista.</h1>
@@ -132,9 +185,41 @@
         <img src="img/uncharted.jpg" class="img-principal">
       </div>
     </div>
+  </div> -->
+
+
+  <div class="card-group-home col-md-12 bg-dark">
+    <div class="card" id="card-home">
+      <a href="#" target="_blank" id="hrefcard">
+          <img src="https://source.unsplash.com/random/690x500?x=1" class="card-img-top" id="img-background" alt="...">
+          <div class="card-body" id="card-body">
+              <h5 class="card-title">${item.title}</h5>
+              <p class="card-text">${item.description}</p>
+          </div>
+      </a>
+    </div>
+    <div class="card" id="card-home">
+      <a href="#" target="_blank" id="hrefcard">
+          <img src="https://source.unsplash.com/random/690x500?x=1" class="card-img-top" id="img-background" alt="...">
+          <div class="card-body" id="card-body">
+              <h5 class="card-title">${item.title}</h5>
+              <p class="card-text">${item.description}</p>
+          </div>
+      </a>
+    </div>
+    <div class="card" id="card-home">
+      <a href="#" target="_blank" id="hrefcard">
+          <img src="https://source.unsplash.com/random/690x500?x=1" class="card-img-top" id="img-background" alt="...">
+          <div class="card-body" id="card-body">
+              <h5 class="card-title">${item.title}</h5>
+              <p class="card-text">${item.description}</p>
+          </div>
+      </a>
+    </div>
   </div>
 
-  <div class="bg-dark" style="width: 100%; justify-content: center; align-items: center;">
+
+  <!--<div class="bg-dark" style="width: 100%; justify-content: center; align-items: center;">
     <div class="container-fluid" style="width: 100%; padding: 3%;">
       <div class="row" style="display: flex; justify-content: center;">
         <div class="col-md-3 card col-md-3">
@@ -157,7 +242,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
+
+
+
 
   <!--Início Redes Sociais-->
 
