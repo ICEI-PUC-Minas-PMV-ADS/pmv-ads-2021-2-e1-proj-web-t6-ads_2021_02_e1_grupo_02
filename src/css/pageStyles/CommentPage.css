@@ -1,0 +1,8 @@
+
+.titulo {
+    display: block;
+    margin: auto;
+    padding-left: 0px;
+    width: 95%; 
+    border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
+}

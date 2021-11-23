@@ -3,9 +3,10 @@
     background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%)!important;
 }
 
-/* .container-fluid{
-    height: 200px;
-} */
+#navbg {
+    background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13, 33,1) 50%, rgba(73,34,73,1) 100%) !important;
+    width: 100%;
+}
 
 .header {
     display: flex;
@@ -17,13 +18,36 @@
 
 
 .test {
+    width: 100%;
     background: rgb(5,40,96);
-background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%);
+    background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13, 33,1) 50%, rgba(73,34,73,1) 100%) !important;
+}
+
+.titulo-cat {
+    display: block;
+    margin: auto;
+    padding-left: 0px;
+    width: 95%; 
+    border-top-width: 2px; 
+    border-top-style: solid; 
+    border-top-color: black; 
+    border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
+}
+
+.mb-2 {
+    margin-bottom: 0rem!important;
+}
+
+.mt-2 {
+    margin-top: 0rem!important;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
 }
 
 
-
-@media only screen and (max-width:575px) {
+@media only screen and (max-width: 575px) {
     .header {
       display: none;
     }
@@ -37,27 +61,38 @@ background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgb
         width: 70%;
     }
 
-    .card {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 80%;
-    }
-
     #carouselExampleCaptions {
-        display: none
+        display: none;
     }
 
-  }
+    .card {
+        display: flex;
+        margin: auto; 
+        float: none; 
+        min-width: 19rem;
+    }
+
+    #card-body {
+        padding: 10px;
+    }
+
+    #img-background {
+        border-width: 0px;
+        border-radius: 0px;
+    }
+}
 
 
 .nav-link {
     font-size: 150%;
     font-family: 'Bebas Neue', cursive;
-    /* margin-inline: 6px; */
+}
+
+.dropdown-item{
+    font-size: 18px;
 }
 
 .card {
-    /* margin-inline: 3%; */
     background-color: transparent;
 }
 
@@ -72,10 +107,9 @@ body {
 }
 
 
-.card-img-top {
-    border-radius: 10px;
-    border-width: 4px;
-    border-color: #FFF;
+#img-background {
+    border-width: 0px;
+    border-color: transparent;
     border-style: solid;
 }
 
@@ -86,4 +120,59 @@ body {
 
 .social-media {
     margin-inline: 20px;
+}
+
+.trilha {
+    width: 95%;
+    margin: auto;
+    padding: 0px;
+}
+
+.breadcrumb-item {
+    padding-top: 12px;
+}
+
+#hrefcard {
+    text-decoration: none;
+}
+
+#card-cat {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#card:hover, #card:active {
+    transition: 0.5s;
+    transform: scale(1.04);
+    box-shadow: 11px 9px 9px rgb(73,34,73,1);
+}
+
+#news {
+    padding: 45px 80px 45px 80px;
+    background-color: #F7F8F9;
+    justify-content: center;
+}
+
+#card {
+    width: 22em; 
+    height: 26em;
+    background-color: #FFF;
+    margin: 10px 39px 45px 28px;
+    padding: 0px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    text-align: left;
+    color: #000;
+    font-weight: 700;
+    padding: 0px;
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: left;
+    color: #000;
+    padding: 7px 0px 0px 0px;
 }

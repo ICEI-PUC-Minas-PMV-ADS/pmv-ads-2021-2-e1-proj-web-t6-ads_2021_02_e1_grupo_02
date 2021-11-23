@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/pageStyles/CommentPage.css">
 
     <script src="../scripts/scripts-pages/CatTec.js"></script>
 
@@ -73,32 +74,55 @@
 
         <div class="container-fluid col-md-12 bg-light">
             <div class="row col-md-12">
-                <nav class="trilha" style="--bs-breadcrumb-divider: '>>'; " aria-label="breadcrumb">
-                    <ol class="breadcrumb fs-6">
-                        <li class="breadcrumb-item active">Início</li>
-                        <li class="breadcrumb-item active" aria-current="page">Categorias</li>
-                        <li class="breadcrumb-item active" aria-current="page">Tecnologia</li>
-                    </ol>
-                </nav>
-
-                
-
-                <div class="titulo-cat">
-                    <h1>Tecnologia</h1>                    
+                <div class="titulo">
+                    <p style="padding-top: 10px">Tesseracting | Comentários</p>
+                    <h1>Titulo da matéria</h1>                    
                 </div>
-
-                
-
             </div>
         </div>
 
         <div class="container-fluid col-12 bg-light">
-                <div class="row col-md-12" id="news">
+                <div class="row col-md-12">
+                    <div style="display: flex; justify-content: center; padding: 30px;">
+                        <img src="https://source.unsplash.com/random/1000x300?x=1" style="border-radius: 20px;" alt="...">
+                    </div>
+                </div>
+
+                <div class="row col-md-12" style="padding-inline: 15%;">
+                    <form>
+                        <h3 style="margin-bottom: 20px;">Deixe seu comentário</h3>
+                        <div class="row">
+                          <div class="col" style="margin-right: 50px;">
+                            <input type="text" class="form-control" placeholder="Nome">
+                          </div>
+                          <div class="col" style="margin-bottom: 20px;">
+                            <input type="email" class="form-control" placeholder="E-mail">
+                          </div>
+                          <div class="form-group" style="margin-bottom: 20px;">
+                            <textarea placeholder="Mensagem" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <div style="display: flex; justify-content: end; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black; margin-bottom: 20px;">
+                            <button type="button" class="btn bg-dark text-light btn-lg" style="margin-bottom: 20px;">Enviar</button>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+
+                <div class="row col-md-12" style="padding-inline: 15%; display: flex; width: 100%; flex-direction: row; ">
+                  <div style="border: 2px solid #000; width: 6%; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                      <h1>J</h1>
+                  </div>
+                  <div style="width: 90%;  display: flex; align-items: center;padding-top: 10px; margin-left: 20px;">
+                    <p style="font-size: 25px;">Jhonata Jackson</p>
+                  </div>
+                  <div style="width: 90%; margin-top: 20px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias illo saepe dolores tenetur ipsam minima voluptatem eum inventore eveniet enim cupiditate, nihil temporibus, quo, recusandae reiciendis. Debitis, molestias quisquam? Pariatur?</p>
+                  </div>
                 </div>
         </div>
     </div>
 
-    <div class="bg-dark" style="width: 100%; color: white;">
+    <div class="bg-dark" style="width: 100%; color: white; margin-top: 20px;">
         <div class="container">
             <footer class="py-3 mb-0">
                 <p class="text-center text-muted">© 2021 Tesseracting, PUC Minas</p>
