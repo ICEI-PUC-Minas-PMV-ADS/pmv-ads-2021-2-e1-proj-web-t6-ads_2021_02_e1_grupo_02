@@ -46,15 +46,7 @@
 #card-home:hover, #card-home:active {
     transition: 0.5s;
     transform: scale(1.04);
-    box-shadow: 11px 9px 9px rgb(30, 110, 121);
-}
-
-#headline {
-    width: 100%;
-    min-height: 200px;
-    margin-top: 0px;
-    border: none;
-    box-shadow: 11px 9px 9px rgba(0, 0, 0, 0.219);
+    box-shadow: 11px 9px 9px rgba(73,34,73,1);
 }
 
 .test {
