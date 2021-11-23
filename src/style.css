@@ -34,8 +34,20 @@
     border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
 }
 
+.mb-2 {
+    margin-bottom: 0rem!important;
+}
 
-@media only screen and (max-width:575px) {
+.mt-2 {
+    margin-top: 0rem!important;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+
+@media only screen and (max-width: 575px) {
     .header {
       display: none;
     }
@@ -49,14 +61,29 @@
         width: 70%;
     }
 
-    .card {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 80%;
+    #carouselExampleCaptions {
+        display: none;
     }
 
-    #carouselExampleCaptions {
-        display: none
+    #news {
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        margin: auto; 
+        float: none; 
+        min-width: 19rem;
+    }
+
+    #card-body {
+        padding: 10px;
+    }
+
+    #img-background {
+        border-width: 0px;
+        border-radius: 0px;
     }
 }
 
@@ -85,9 +112,8 @@ body {
 }
 
 
-.card-img-top {
-    border-radius: 10px;
-    border-width: 4px;
+#img-background {
+    border-width: 0px;
     border-color: transparent;
     border-style: solid;
 }
@@ -119,7 +145,7 @@ body {
     text-decoration: none;
 }
 
-#cardst {
+#card-cat {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -137,24 +163,24 @@ body {
 }
 
 #card {
-    width: 22rem; 
-    height: 26rem;
+    width: 22em; 
+    height: 26em;
     background-color: #FFF;
-    display: flex;
-    flex-direction: column;
+    margin: 10px 28px 30px 28px;
+    padding: 0px;
 }
 
-.card-title{
-    font-size: 1.3vw;
+.card-title {
+    font-size: 1.1rem;
     text-align: left;
     color: #000;
     font-weight: 700;
-    padding-inline: 20px;
+    padding: 0px;
 }
 
-.card-description {
-    font-size: 1vw;
+.card-text {
+    font-size: 1rem;
     text-align: left;
     color: #000;
-    padding-inline: 20px;
+    padding: 0px;
 }
