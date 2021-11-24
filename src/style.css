@@ -36,7 +36,6 @@ body {
     float: none;
     margin: 0px;
     padding: 30px;
-    box-shadow: 11px 9px 9px rgba(73, 34, 73, 0.836);
 }
 
 #card-home {
@@ -55,6 +54,26 @@ body {
     transition: 0.5s;
     transform: scale(1.04);
     box-shadow: 11px 9px 9px rgba(73,34,73,1);
+}
+
+#latest-news-card:hover, #latest-news-card:active {
+    transition: 0.5s;
+    transform: scale(1.01);
+    box-shadow: 11px 9px 9px rgba(5, 67, 96, 0.705);    
+}
+
+#latest-news {
+    display: flex;
+    justify-content: left;
+    margin: 10px 5px;
+}
+
+#latest-news-card {
+    box-shadow: 11px 9px 9px rgba(0, 0, 0, 0.219);
+}
+
+#latest-news-break h1 {
+    font-size: 1.6em;    
 }
 
 .nav-all {
@@ -139,6 +158,25 @@ body {
     #card-home {
         width: 10em;
         margin: 0px 0px 50px 0px;        
+    }
+
+    #latest-news {
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    #latest-news-card {
+        margin: 30px 0px;
+        min-height: 350px ;
+    }
+
+    #latest-news-card h5 {
+        padding: 5px 5px 5px 0px;
+    }
+
+    #latest-news-card p {
+        padding: 20px 20px 20px 0px;
     }
 }
 
