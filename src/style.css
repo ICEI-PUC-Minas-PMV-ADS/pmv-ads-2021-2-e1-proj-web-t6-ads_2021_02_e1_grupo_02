@@ -1,3 +1,7 @@
+body {
+    margin-top: 79px;
+}
+
 .bg-dark{
     background: rgb(5,40,96) !important;
     background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%)!important;
@@ -28,6 +32,7 @@
 
 .card-group-home {
     display: flex;
+    justify-content: center;
     float: none;
     margin: 0px;
     padding: 30px;
@@ -35,12 +40,15 @@
 }
 
 #card-home {
-    width: 22rem; 
-    height: 26rem;
+    width: 350px; 
     background-color: #FFF;
-    margin: auto;
+    margin: 30px;
     border: none;
     box-shadow: 11px 9px 9px rgba(0, 0, 0, 0.219);
+}
+
+#card-inner-home {
+    justify-content: center;
 }
 
 #card-home:hover, #card-home:active {
@@ -80,8 +88,16 @@
 
 
 @media only screen and (max-width: 575px) {
+    body {
+        margin-top: 0px;
+    }
+
     .header {
       display: none;
+    }
+
+    #custom-navbar {
+        position: relative;
     }
     
     ul {
@@ -145,12 +161,6 @@ body {
     overflow-y: scroll;
 }
 
-.card-text {
-    color: #FFF;
-    font-family: 'Bebas Neue', cursive;
-}
-
-
 #img-background {
     border-width: 0px;
     border-color: transparent;
@@ -199,8 +209,7 @@ body {
 }
 
 #card {
-    width: 22em; 
-    height: 26em;
+    width: 350px; 
     background-color: #FFF;
     margin: 10px 39px 45px 28px;
     padding: 0px;
@@ -218,7 +227,8 @@ body {
     font-size: 1rem;
     text-align: left;
     color: #000;
-    padding: 7px 0px 0px 0px;
+    padding: 7px 0px 10px 0px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .cor-especial{
