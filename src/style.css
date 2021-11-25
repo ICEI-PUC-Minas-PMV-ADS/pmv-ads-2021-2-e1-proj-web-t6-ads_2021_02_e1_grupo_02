@@ -222,6 +222,7 @@ body {
     width: 95%;
     margin: auto;
     padding: 0px;
+    margin-top: 10px;
 }
 
 .breadcrumb-item {
