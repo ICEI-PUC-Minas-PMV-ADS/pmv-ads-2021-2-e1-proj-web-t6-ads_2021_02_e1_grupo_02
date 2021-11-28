@@ -13,8 +13,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir:
 | Objetivo do Teste     | Verificar se a carga de notícias está acontecendo corretamente.                                                                                                                                                     |
 | Critérios de Êxito    | A página Home deve ser carregada, com as imagens visíveis e todos os links devem direcionar o usuário para as páginas correspondentes a sua seleção.                                                                |
 
-Passos:
+|Passos |
 
 - Acessar o Navegador
 - Informar o endereço do site - https://portal-geek-puc.vercel.app/
-- Visualizar a página principal|
+- Visualizar a página principal |
