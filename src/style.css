@@ -320,8 +320,8 @@ body {
 }
 .card-largura {
   max-width: 12rem;
-  font-size: small;
-  text-align: justify;
+  font-size: x-small;
+  text-align: left;
 }
 
 .b-example-divider {
