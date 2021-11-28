@@ -7,13 +7,14 @@ Os requisitos para realização dos testes de software são:
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir:
 
-| CASO DE TESTE | CT- 01 - Carregamento da página Home| 
-| --------------------- | ----------------------------------|
+| CASO DE TESTE         | CT- 01 - Carregamento da página Home                                                                                                                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Requisitos Associados | RF-01 - O site deve apresentar na página principal notícias estáticas incluídas pelo próprio administrador. RF-02 - O site deve apresentar, para cada publicação, uma imagem correspondente ao assunto apresentado. |
-| Objetivo do Teste | Verificar se a carga de notícias está acontecendo corretamente. |
-| Passos |
+| Objetivo do Teste     | Verificar se a carga de notícias está acontecendo corretamente.                                                                                                                                                     |
+| Critérios de Êxito    | A página Home deve ser carregada, com as imagens visíveis e todos os links devem direcionar o usuário para as páginas correspondentes a sua seleção.                                                                |
+
+Passos:
 
 - Acessar o Navegador
 - Informar o endereço do site - https://portal-geek-puc.vercel.app/
 - Visualizar a página principal|
-  | Critérios de Êxito | A página Home deve ser carregada, com as imagens visíveis e todos os links devem direcionar o usuário para as páginas correspondentes a sua seleção.|
