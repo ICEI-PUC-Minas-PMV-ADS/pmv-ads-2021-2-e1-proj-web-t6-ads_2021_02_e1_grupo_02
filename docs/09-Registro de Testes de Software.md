@@ -2,7 +2,7 @@
 
 Teste de Responsividade
 
-![Teste de responsividade](\img\teste_dispo.jpg)
+![Teste de responsividade](/img/teste_dispo.jpg)
 
 # Registro de Testes de Software
 
