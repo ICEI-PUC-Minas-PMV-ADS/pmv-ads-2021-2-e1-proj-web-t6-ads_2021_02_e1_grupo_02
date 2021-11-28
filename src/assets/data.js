@@ -6,7 +6,7 @@ function getData() {
                     id: "tec1",
                     title: "NVIDIA promete revolucionar conceito de metaverso com avatares tecnológicos",
                     description: "A corrida pelo desenvolvimento no novo mundo digital começou",
-                    font: "https://canaltech.com.br/",
+                    font: "canaltech",
                     link: "https://canaltech.com.br/inovacao/nvidia-promete-revolucionar-conceito-de-metaverso-com-avatares-tecnologicos-201269/",
                     img: "",
                     content: "A NVIDIA anunciou nesta terça-feira (9) o lançamento da sua plataforma tecnológica para criação de avatares interativos baseados em inteligência artificial. O Omniverse Avatar pretende entregar personagens altamente detalhados com gráficos 3D e Ray Tracing que poderão ver, falar, conversar e interagir com pessoas de forma natural."

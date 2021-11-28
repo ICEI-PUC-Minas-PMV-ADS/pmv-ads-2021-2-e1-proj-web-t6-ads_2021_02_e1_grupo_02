@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
-    <script src="script.js"></script>
+    <script src="../scripts/scripts-pages/Materia.js"></script>
 
     <title>Tesseracting</title>
 </head>
@@ -49,15 +49,15 @@
                                 </a>
 
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <li><a class="dropdown-item" href="pages/CatCie.html">Ciência</a></li>
-                                    <li><a class="dropdown-item" href="pages/CatTec.html">Tecnologia</a></li>
-                                    <li><a class="dropdown-item" href="pages/CatGeek.html">Geek</a></li>
-                                    <li><a class="dropdown-item" href="pages/CatPod.html">Podcasts</a></li>
+                                    <li><a class="dropdown-item" href="./CatCie.html">Ciência</a></li>
+                                    <li><a class="dropdown-item" href="./CatTec.html">Tecnologia</a></li>
+                                    <li><a class="dropdown-item" href="./CatGeek.html">Geek</a></li>
+                                    <li><a class="dropdown-item" href="./CatPod.html">Podcasts</a></li>
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="pages/QuemSomos.html">Quem somos</a>
+                            <a class="nav-link text-light" href="./QuemSomos.html">Quem somos</a>
                         </li>
                     </ul>
                 </div>
@@ -77,16 +77,16 @@
                 </ol>
             </nav>
             <div class="titulo">
-                <h1>Arcane já e a série original da Netflix mais bem avaliada do IMDB</h1>
-                <p style="font-size: 25px; color: #555;">Com a nota 9.4 e mais de 13 mil avaliações dos usuários</p>
+                <h1 id="title"></h1>
+                <p id="description" style="font-size: 25px; color: #555;"></p>
             </div>
 
             <div class="container-fluid col-md-12" id="area-autor">
                 <div class="avatar">
                     <h1>J</h1>
                 </div>
-                <div style="margin-left: 15px;">
-                    <a target="_blank" class="font-link" href="https://jovemnerd.com.br/">Fonte: jovemnerd</a>
+                <div id="font" style="margin-left: 15px;">
+                    
                 </div>
             </div>
 
@@ -97,14 +97,15 @@
             </div>
 
             <div class="materia">
-                <p class="text">Faz poucos dias desde que Arcane estreou, mas já está arrancando elogios de fãs de League of Legends
-                    e até de quem não conhece o jogo. E, mesmo com apenas três episódios, a produção já se tornou a
-                    série original da Netflix mais bem avaliada do IMDB. As informações são da Forbes.</p>
+                <p id="materia" class="text"></p>
+                <div id="leiamais">
+                </div>
+                
             </div>
 
             <div class="comunidade-box">
                <h3 style="margin-bottom: 20px;">Comentários da comunidade</h3>
-               <a href="./CatTec.html" style="text-decoration: none; color: black;">
+               <a href="./CommentPage.html" style="text-decoration: none; color: black;">
                     <div style="border: 3px solid black; display: flex; justify-content: center; align-items: center;">
                         <p style="font-size: 25px; margin-top: 20px; font-weight: 600;">Participe da discussão</p>
                 </div>
