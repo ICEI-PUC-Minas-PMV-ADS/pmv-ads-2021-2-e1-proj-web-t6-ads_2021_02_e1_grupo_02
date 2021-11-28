@@ -49,8 +49,7 @@ Passos:
 | Requisitos Associados | RF-05 - O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa       |
 | Objetivo do Teste     | Verificar se ao digitar palavras que existam no conteúdo da aplicação no campo de pesquisa, se o site trará todos os links da aplicação que possuam a palavra digitada. |
 
-Verificar se ao digitar palavras que não existam não conteúdo da aplicação no campo de pesquisa, se o site informará que não existe notícia/conteúdo com aquela informação buscada.
-|
+Verificar se ao digitar palavras que não existam não conteúdo da aplicação no campo de pesquisa, se o site informará que não existe notícia/conteúdo com aquela informação buscada.|
 | Critérios de Êxito | Ao digitar palavras existentes no conteúdo que seja apresentada página com os links das notícias que possuam a palavra buscada. E nos casos de não houver notícia para a palavra buscada, que retorne a informação de que não existe conteúdo com a palavra digitada. |
 
 Passos:
