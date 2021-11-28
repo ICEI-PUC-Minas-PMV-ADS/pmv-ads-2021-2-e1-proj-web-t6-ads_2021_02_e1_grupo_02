@@ -1,318 +1,339 @@
 body {
-    margin-top: 79px;
+  margin-top: 79px;
 }
 
-.bg-dark{
-    background: rgb(5,40,96) !important;
-    background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13,33,1) 50%, rgba(73,34,73,1) 100%)!important;
+.bg-dark {
+  background: rgb(5, 40, 96) !important;
+  background: linear-gradient(
+    161deg,
+    rgba(5, 40, 96, 1) 0%,
+    rgba(4, 13, 33, 1) 50%,
+    rgba(73, 34, 73, 1) 100%
+  ) !important;
 }
 
 #navbg {
-    background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13, 33,1) 50%, rgba(73,34,73,1) 100%) !important;
-    width: 100%;
+  background: linear-gradient(
+    161deg,
+    rgba(5, 40, 96, 1) 0%,
+    rgba(4, 13, 33, 1) 50%,
+    rgba(73, 34, 73, 1) 100%
+  ) !important;
+  width: 100%;
 }
 
 .header {
-    display: flex;
-    height: 18vh;
-    justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 20px;
+  display: flex;
+  height: 18vh;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
 }
 
 .carousel-item:before {
-    content:'';
-    position: absolute;
-    left: 0; 
-    top:0;
-    width: 100%; 
-    height: 100%;
-    background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(0, 0, 0, 0.11) 100%); 
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(0, 47, 75, 0.5) 0%,
+    rgba(0, 0, 0, 0.11) 100%
+  );
 }
 
 .card-group-home {
-    display: flex;
-    justify-content: center;
-    float: none;
-    margin: 0px;
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  float: none;
+  margin: 0px;
+  padding: 30px;
 }
 
 #card-home {
-    width: 350px; 
-    background-color: #FFF;
-    margin: 30px;
-    border: none;
-    box-shadow: 11px 9px 9px rgba(0, 0, 0, 0.219);
+  width: 350px;
+  background-color: #fff;
+  margin: 30px;
+  border: none;
+  box-shadow: 11px 9px 9px rgba(0, 0, 0, 0.219);
 }
 
 #card-inner-home {
-    justify-content: center;
+  justify-content: center;
 }
 
-#card-home:hover, #card-home:active {
-    transition: 0.5s;
-    transform: scale(1.04);
-    box-shadow: 11px 9px 9px rgba(73,34,73,1);
+#card-home:hover,
+#card-home:active {
+  transition: 0.5s;
+  transform: scale(1.04);
+  box-shadow: 11px 9px 9px rgba(73, 34, 73, 1);
 }
 
-#latest-news-card:hover, #latest-news-card:active {
-    transition: 0.5s;
-    transform: scale(1.01);
-    box-shadow: 11px 9px 9px rgba(5, 67, 96, 0.705);    
+#latest-news-card:hover,
+#latest-news-card:active {
+  transition: 0.5s;
+  transform: scale(1.01);
+  box-shadow: 11px 9px 9px rgba(5, 67, 96, 0.705);
 }
 
 #latest-news {
-    display: flex;
-    justify-content: left;
-    margin: 10px 5px;
+  display: flex;
+  justify-content: left;
+  margin: 10px 5px;
 }
 
 #latest-news-card {
-    box-shadow: 11px 9px 9px rgba(0, 0, 0, 0.219);
+  box-shadow: 11px 9px 9px rgba(0, 0, 0, 0.219);
 }
 
 #latest-news-break h1 {
-    font-size: 1.6em;    
+  font-size: 1.6em;
 }
 
 .nav-all {
-    width: 100%;
-    background: rgb(5,40,96);
-    background: linear-gradient(161deg, rgba(5,40,96,1) 0%, rgba(4,13, 33,1) 50%, rgba(73,34,73,1) 100%) !important;
+  width: 100%;
+  background: rgb(5, 40, 96);
+  background: linear-gradient(
+    161deg,
+    rgba(5, 40, 96, 1) 0%,
+    rgba(4, 13, 33, 1) 50%,
+    rgba(73, 34, 73, 1) 100%
+  ) !important;
 }
 
 .titulo-cat {
-    display: block;
-    margin: auto;
-    padding-left: 0px;
-    width: 95%; 
-    border-top-width: 2px; 
-    border-top-style: solid; 
-    border-top-color: black; 
-    border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
+  display: block;
+  margin: auto;
+  padding-left: 0px;
+  width: 95%;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
 }
 
 .mb-2 {
-    margin-bottom: 0rem!important;
+  margin-bottom: 0rem !important;
 }
 
 .mt-2 {
-    margin-top: 0rem!important;
+  margin-top: 0rem !important;
 }
 
 .row {
-    --bs-gutter-x: 0rem;
+  --bs-gutter-x: 0rem;
 }
-
 
 @media only screen and (max-width: 575px) {
-    body {
-        margin-top: 0px;
-    }
+  body {
+    margin-top: 0px;
+  }
 
-    .header {
-      display: none;
-    }
+  .header {
+    display: none;
+  }
 
-    #custom-navbar {
-        position: relative;
-    }
-    
-    ul {
-        margin-left: 4%;
-        margin-top: 3%;
-    }
+  #custom-navbar {
+    position: relative;
+  }
 
-    .navbar-brand {
-        width: 70%;
-    }
+  ul {
+    margin-left: 4%;
+    margin-top: 3%;
+  }
 
-    #carouselExampleCaptions {
-        display: none;
-    }
+  .navbar-brand {
+    width: 70%;
+  }
 
-    .card {
-        display: flex;
-        margin: auto; 
-        float: none; 
-        min-width: 19rem;
-    }
+  #carouselExampleCaptions {
+    display: none;
+  }
 
-    #card-body {
-        padding: 10px;
-    }
+  .card {
+    display: flex;
+    margin: auto;
+    float: none;
+    min-width: 19rem;
+  }
 
-    #img-background {
-        border-width: 0px;
-        border-radius: 0px;
-    }
+  #card-body {
+    padding: 10px;
+  }
 
-    .card-group-home {
-        display: block;
-        margin: auto;  
-        justify-content: center;  
-        padding: 30px 30px 1px 30px;
-    }
+  #img-background {
+    border-width: 0px;
+    border-radius: 0px;
+  }
 
-    #card-home {
-        width: 10em;
-        margin: 0px 0px 50px 0px;        
-    }
+  .card-group-home {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    padding: 30px 30px 1px 30px;
+  }
 
-    #latest-news {
-        justify-content: center;
-        width: 80%;
-        margin: auto;
-    }
+  #card-home {
+    width: 10em;
+    margin: 0px 0px 50px 0px;
+  }
 
-    #latest-news-card {
-        margin: 30px 0px;
-        min-height: 350px ;
-    }
+  #latest-news {
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+  }
 
-    #latest-news-card h5 {
-        padding: 5px 5px 5px 0px;
-    }
+  #latest-news-card {
+    margin: 30px 0px;
+    min-height: 350px;
+  }
 
-    #latest-news-card p {
-        padding: 20px 20px 20px 0px;
-    }
+  #latest-news-card h5 {
+    padding: 5px 5px 5px 0px;
+  }
 
-    #latest-news-break h1 {
-        font-size: 1.8em;    
-    }
+  #latest-news-card p {
+    padding: 20px 20px 20px 0px;
+  }
+
+  #latest-news-break h1 {
+    font-size: 1.8em;
+  }
 }
-
 
 .nav-link {
-    font-size: 150%;
-    font-family: 'Bebas Neue', cursive;
+  font-size: 150%;
+  font-family: "Bebas Neue", cursive;
 }
 
-.dropdown-item{
-    font-size: 18px;
+.dropdown-item {
+  font-size: 18px;
 }
 
 .card {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 body {
-    overflow-x: hidden;
-    overflow-y: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 #img-background {
-    border-width: 0px;
-    border-color: transparent;
-    border-style: solid;
+  border-width: 0px;
+  border-color: transparent;
+  border-style: solid;
 }
 
 .img-principal {
-    border-radius: 10px;
-    width: 100%;
+  border-radius: 10px;
+  width: 100%;
 }
 
 .social-media {
-    margin-inline: 20px;
+  margin-inline: 20px;
 }
 
 .trilha {
-    width: 95%;
-    margin: auto;
-    padding: 0px;
+  width: 95%;
+  margin: auto;
+  padding: 0px;
 }
 
 .breadcrumb-item {
-    padding-top: 12px;
+  padding-top: 12px;
 }
 
 #hrefcard {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #card-cat {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-#card:hover, #card:active {
-    transition: 0.5s;
-    transform: scale(1.04);
-    box-shadow: 11px 9px 9px rgb(73,34,73,1);
+#card:hover,
+#card:active {
+  transition: 0.5s;
+  transform: scale(1.04);
+  box-shadow: 11px 9px 9px rgb(73, 34, 73, 1);
 }
 
 #news {
-    padding: 45px 80px 45px 80px;
-    background-color: #F7F8F9;
-    justify-content: center;
+  padding: 45px 80px 45px 80px;
+  background-color: #f7f8f9;
+  justify-content: center;
 }
 
 #card {
-    width: 350px; 
-    background-color: #FFF;
-    margin: 10px 39px 45px 28px;
-    padding: 0px;
+  width: 350px;
+  background-color: #fff;
+  margin: 10px 39px 45px 28px;
+  padding: 0px;
 }
 
 .card-title {
-    font-size: 1.1rem;
-    text-align: left;
-    color: #000;
-    font-weight: 700;
-    padding: 0px;
+  font-size: 1.1rem;
+  text-align: left;
+  color: #000;
+  font-weight: 700;
+  padding: 0px;
 }
 
 .card-text {
-    font-size: 1rem;
-    text-align: left;
-    color: #000;
-    padding: 7px 0px 10px 0px;
-    font-family: 'Bebas Neue', cursive;
+  font-size: 1rem;
+  text-align: left;
+  color: #000;
+  padding: 7px 0px 10px 0px;
+  font-family: "Bebas Neue", cursive;
 }
 
-.cor-especial{
-    color: darkslateblue;
+.cor-especial {
+  color: darkslateblue;
 }
 
 .botao-color-especial {
-    background-color: darkslateblue;
-    color: white;
+  background-color: darkslateblue;
+  color: white;
 }
 
 .borda-color-especial {
-    border-color: darkslateblue;
-    
+  border-color: transparent;
 }
 
-.card-posicao-img{
-    object-fit:cover;
-    height: 120px;
+.card-posicao-img {
+  object-fit: cover;
+  height: 120px;
 }
 
-.card-posicao-img-sobre{
-   object-fit:cover;
-    height: 120px; 
-    
+.card-posicao-img-sobre {
+  object-fit: fill;
+  height: 42%;
+  border-radius: 100%;
 }
-.card-largura{
-    max-width: 12rem;
-    font-size: small;
-    text-align: center;
+.card-largura {
+  max-width: 12rem;
+  font-size: small;
+  text-align: justify;
 }
-
 
 .b-example-divider {
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
-  
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
