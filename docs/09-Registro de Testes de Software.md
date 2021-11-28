@@ -4,10 +4,6 @@ Teste de Responsividade
 
 ![Teste de responsividade](img/teste_dispo.jpg)
 
-Teste de Links quebrados
-
-![Teste de responsividade](img/teste_dispo.jpg)
-
 # Registro de Testes baseados nos planos de testes
 
 | CASO DE TESTE         | CT- 01 - Carregamento da página Home                                                                                                                                                                                |
@@ -23,7 +19,7 @@ Passos:
 - Visualizar a página principal
 
 Tela:
-![Teste de responsividade](img/teste_dispo.jpg)
+![Teste de responsividade](img/ct-01.jpg)
 
 | CASO DE TESTE         | CT- 02 - Visualizar detalhes das notícias                                                                                                   |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -94,5 +90,4 @@ Tela:
 
 ## Avaliação
 
-Ao realizar os testes encontramos boa responsividade do nosso site. Conseguimos atingir responsividade para paginas web e mobile. Não encontramos nenhum link quebrado.
-Em relação aos casos de testes 04 e 06, não foram realizados devido ao não atendimento dos requisitos.Porém para futuras atualizações os requisitos serão prioriadade para serem atendidos.
+Ao realizar os testes encontramos boa responsividade do nosso site. Conseguimos atingir responsividade para paginas web e mobile.Em relação aos casos de testes 04 e 06, não foram realizados devido ao não atendimento dos requisitos.Porém para futuras atualizações os requisitos serão prioriadade para serem atendidos.
