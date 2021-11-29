@@ -64,15 +64,13 @@ body {
   justify-content: center;
 }
 
-#card-home:hover,
-#card-home:active {
+#card-home:hover, #card-home:active {
   transition: 0.5s;
   transform: scale(1.04);
   box-shadow: 11px 9px 9px rgba(73, 34, 73, 1);
 }
 
-#latest-news-card:hover,
-#latest-news-card:active {
+#latest-news-card:hover, #latest-news-card:active {
   transition: 0.5s;
   transform: scale(1.01);
   box-shadow: 11px 9px 9px rgba(5, 67, 96, 0.705);
@@ -204,6 +202,10 @@ body {
   #latest-news-break h1 {
     font-size: 1.8em;
   }
+
+ .card-posicao-img-sobre {
+    min-height: 300px;
+  }
 }
 
 .nav-link {
@@ -259,8 +261,7 @@ body {
   padding-bottom: 10px;
 }
 
-#card:hover,
-#card:active {
+#card:hover, #card:active {
   transition: 0.5s;
   transform: scale(1.04);
   box-shadow: 11px 9px 9px rgb(73, 34, 73, 1);
@@ -315,7 +316,7 @@ body {
 
 .card-posicao-img-sobre {
   object-fit: fill;
-  height: 42%;
+  height: 308px;
   border-radius: 100%;
 }
 .card-largura {
@@ -336,4 +337,30 @@ body {
 .bi {
   vertical-align: -0.125em;
   fill: currentColor;
+}
+
+#card-top-quemsomos {
+  display: flex;
+  justify-content: center;
+}
+
+#card-bottom-quemsomos {
+  display: flex;
+  justify-content: center;  
+}
+
+#card-quemsomos {
+  width: 320px;
+  background-color: #fff;
+  margin: 20px 39px 45px;
+  padding: 0px;
+}
+
+#card-body-quemsomos {
+  padding: 10px;
+}
+
+.link-homepage {
+  text-decoration: none;
+  color: white;
 }

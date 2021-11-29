@@ -34,14 +34,14 @@
     width: 95%;
 }
 
-.materia{
+.materia {
     display: block;
     margin: auto;
     padding-left: 0px;
     width: 95%;
     text-align: left;
     padding: 10px;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid black; 
     margin-bottom: 20px;
 }
 
@@ -57,4 +57,14 @@
 
 .text{
     font-size: 25px;
+}
+
+@media only screen and (max-width: 575px) {
+    #img-noticia img {
+        width: 340px;
+    }
+
+    #materia {
+        font-size: 1.0em;
+    }
 }

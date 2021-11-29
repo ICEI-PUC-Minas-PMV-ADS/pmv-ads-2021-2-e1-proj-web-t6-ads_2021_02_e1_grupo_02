@@ -77,7 +77,7 @@ const data =  [
     },
     {
         id: "cc2",
-        title: "Teoria de Eisten Calibra GPS",
+        title: "Teoria de Einsten Calibra GPS",
         description: "Como teoria da relatividade de Einstein calibra GPS e traduz o Universo...",
         font: "uol",
         link: "https://www.uol.com.br/tilt/noticias/redacao/2021/11/14/e--mc2-teoria-da-relatividade-calibra-gps-e-traduz-o-universo.htm",

@@ -39,7 +39,7 @@
                     <ul class="navbar-nav col-sm-12 col-md-12 pb-2 d-flex justify-content-center"
                         style="padding-top: 10px;">
                         <li class="nav-item active">
-                            <a class="nav-link text-light" href="#">Início</a>
+                            <a class="nav-link text-light" href="../index.html">Início</a>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
@@ -52,7 +52,6 @@
                                     <li><a class="dropdown-item" href="./CatCie.html">Ciência</a></li>
                                     <li><a class="dropdown-item" href="./CatTec.html">Tecnologia</a></li>
                                     <li><a class="dropdown-item" href="./CatGeek.html">Geek</a></li>
-                                    <li><a class="dropdown-item" href="./CatPod.html">Podcasts</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -70,10 +69,7 @@
         <div class="row col-md-12">
             <nav class="trilha" style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
                 <ol class="breadcrumb fs-6">
-                    <li class="breadcrumb-item active">Início</li>
-                    <li class="breadcrumb-item active" aria-current="page">Categorias</li>
-                    <li class="breadcrumb-item active" aria-current="page">Arcane já e a série original da Netflix mais
-                        bem avaliada do IMDB</li>
+                    <li class="breadcrumb-item active"></li>
                 </ol>
             </nav>
             <div class="titulo">
@@ -90,11 +86,11 @@
                 </div>
             </div>
 
-            <div class="row col-md-12">
-                <div style="display: flex; justify-content: center; padding: 30px;">
-                    <img src="https://source.unsplash.com/random/1000x300?x=1" style="border-radius: 20px;" alt="...">
+                <div class="row col-md-12" id="img-noticia">
+                    <div style="display: flex; justify-content: center; padding: 30px;">
+                        <img src="https://source.unsplash.com/random/1000x300?x=1" style="border-radius: 20px;" alt="...">
+                    </div>
                 </div>
-            </div>
 
             <div class="materia">
                 <p id="materia" class="text"></p>
@@ -105,7 +101,7 @@
 
             <div class="comunidade-box">
                <h3 style="margin-bottom: 20px;">Comentários da comunidade</h3>
-               <a href="./CommentPage.html" style="text-decoration: none; color: black;">
+               <a href="./CommentPage.html" id="comunidade-btn" style="text-decoration: none; color: black;">
                     <div style="border: 3px solid black; display: flex; justify-content: center; align-items: center;">
                         <p style="font-size: 25px; margin-top: 20px; font-weight: 600;">Participe da discussão</p>
                 </div>

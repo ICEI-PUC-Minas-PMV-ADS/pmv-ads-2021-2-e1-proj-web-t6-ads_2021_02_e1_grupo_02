@@ -6,3 +6,18 @@
     width: 95%; 
     border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
 }
+
+@media only screen and (max-width: 575px) {
+    #img-comentario img {
+        width: 340px;
+    }
+
+    #id-border {
+        border: 0px;
+    }
+
+    #inicial h1 {
+        display: none;
+        
+    }
+}
