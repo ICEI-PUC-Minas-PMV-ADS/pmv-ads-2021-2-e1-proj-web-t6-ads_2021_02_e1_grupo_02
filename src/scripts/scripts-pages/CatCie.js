@@ -91,7 +91,7 @@ const data =  [
         description: "Astronautas da SpaceX Crew-3 viram objeto estranho próximo à ISS",
         font: "olhardigital",
         link: "https://olhardigital.com.br/2021/11/12/ciencia-e-espaco/astronautas-da-spacex-crew-3-viram-objeto-estranho-proximo-a-iss/",
-        img: "/src/img/spacex_teste1.jpg",
+        img: "/src/img/spacex_teste2.jpg",
         content: "Enquanto se aproximavam da Estação Espacial Internacional (ISS), os astronautas da missão SpaceX Crew-3, que foi lançada pela Nasa na última quarta-feira (10), avistaram um estranho objeto flutuando no espaço."
 
     },
@@ -141,7 +141,7 @@ const data =  [
         description: "Conheça a cientista baiana que pesquisa moscas de fruta na ONU",
         font: "correio24horas",
         link: "https://www.correio24horas.com.br/noticia/nid/conheca-a-cientista-baiana-que-pesquisa-moscas-de-fruta-na-onu/",
-        img: "/src/img/Cientista_mosca_teste1.jpg",
+        img: "/src/img/mosca_teste2.jpg",
         content: "A bióloga e pesquisadora baiana Vanessa Dias, 36 anos, sempre soube que não poderia desperdiçar oportunidades. Foi assim quando decidiu trabalhar no McDonald’s, ainda no final do Ensino Médio, para conseguir pagar o cursinho pré-vestibular e quando se tornou bolsista de iniciação científica na Universidade Federal da Bahia (Ufba)."
 
     },
