@@ -67,4 +67,19 @@
     #materia {
         font-size: 1.0em;
     }
+
+    #comment-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .comunidade-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
