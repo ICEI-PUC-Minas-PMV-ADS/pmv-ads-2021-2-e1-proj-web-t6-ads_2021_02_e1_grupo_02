@@ -106,7 +106,7 @@ const data = {
                 description: "Nanotecnologia na agricultura",
                 font: "g1",
                 link: "https://g1.globo.com/df/distrito-federal/noticia/2021/11/08/professor-da-unb-recebe-premio-de-inovacao-por-biofertilizante-que-usa-nanotecnologia-na-agricultura.ghtml",
-                img: "/src/img/nano_teste1.jpg",
+                img: "/src/img/Nano_teste1.jpg",
                 content: "Brenno, de 43 anos, explica que o produto que leva o nome da UnB à posição de destaque no evento nacional usa nanotecnologia – partículas pequenas que não são visíveis a olho nu – aplicada à agricultura. Formado em química, o pesquisador é pós-doutor em biotecnologia molecular e celular."
 
             },
@@ -146,7 +146,7 @@ const data = {
                 description: "O Nubank começou a permitir o cadastro de milhões de clientes selecionados no programa NuSócios",
                 font: "tecnoblog",
                 link: "https://tecnoblog.net/530687/nubank-libera-cadastro-do-nusocios-para-receber-acao-de-graca-apos-ipo/",
-                img: "/src/img/NU_teste1.jpg",
+                img: "/src/img/Nu_teste1.jpg",
                 content: "A partir desta terça-feira (9), clientes do Nubank já podem se cadastrar para receber seu “pedacinho” da fintech de graça. O programa NuSócios foi lançado hoje pelo banco digital para oferecer um BDR, título equivalente a uma fração de ação negociada na Bolsa de Valores, a milhões de usuários selecionados. Se você é uma dessas pessoas, um grande banner vai aparecer no topo da tela inicial do aplicativo do Nubank."
 
             },

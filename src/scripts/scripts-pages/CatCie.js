@@ -141,7 +141,7 @@ const data =  [
         description: "Conheça a cientista baiana que pesquisa moscas de fruta na ONU",
         font: "correio24horas",
         link: "https://www.correio24horas.com.br/noticia/nid/conheca-a-cientista-baiana-que-pesquisa-moscas-de-fruta-na-onu/",
-        img: "/src/img/mosca_teste2.jpg",
+        img: "/src/img/Mosca_teste2.jpg",
         content: "A bióloga e pesquisadora baiana Vanessa Dias, 36 anos, sempre soube que não poderia desperdiçar oportunidades. Foi assim quando decidiu trabalhar no McDonald’s, ainda no final do Ensino Médio, para conseguir pagar o cursinho pré-vestibular e quando se tornou bolsista de iniciação científica na Universidade Federal da Bahia (Ufba)."
 
     },
