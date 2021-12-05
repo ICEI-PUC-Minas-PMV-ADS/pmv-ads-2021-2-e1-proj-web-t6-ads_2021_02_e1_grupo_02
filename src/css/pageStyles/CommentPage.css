@@ -1,10 +1,29 @@
-
 .titulo {
     display: block;
     margin: auto;
     padding-left: 0px;
-    width: 95%; 
-    border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: black;     
+    width: 95%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+#id-border {
+    border: 2px solid #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#comment-name {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 20px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -13,11 +32,11 @@
     }
 
     #id-border {
-        border: 0px;
+        display: none;
+        width: 50px;
     }
 
-    #inicial h1 {
-        display: none;
-        
+    #comment-name {
+        margin-left: 0px; 
     }
 }
